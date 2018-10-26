@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { QRScanner, QRScannerStatus} from '@ionic-native/qr-scanner';
+import { FirmaPage } from '../firma/firma';
 
 @Component({
     selector: "page-scanner",
@@ -8,7 +9,7 @@ import { QRScanner, QRScannerStatus} from '@ionic-native/qr-scanner';
 })
 
 export class ScannerPage {
-
+    qrJSON: any;
     constructor(public navController: NavController, private qrScanner: QRScanner) {
 
         // Optionally request the permission early
@@ -18,10 +19,18 @@ export class ScannerPage {
             // camera permission was granted
             // start scanning
             let scanSub = this.qrScanner.scan().subscribe((text: string) => {
-            alert('Scanned something:' + text);
-            this.qrScanner.hide(); // hide camera preview
-            scanSub.unsubscribe(); // stop scanning          
-            this.navController.pop();
+                //alert('Scanned something:' + text);
+                this.qrScanner.hide(); // hide camera preview
+                scanSub.unsubscribe(); // stop scanning          
+                //this.navController.pop();      
+                this.qrJSON = JSON.parse(text);     
+                if(this.qrJSON.APPSolicitante && this.qrJSON.PostBack)
+                {
+                    this.navController.push(FirmaPage, {jsonQRCode: text });
+                } else{
+                    alert("El código capturado no cumple la estructura esperada. Intente de nuevo");
+                }
+                
             });
 
             this.qrScanner.resumePreview();
@@ -29,9 +38,9 @@ export class ScannerPage {
             // show camera preview
             this.qrScanner.show()
             .then((data : QRScannerStatus)=> {
-                console.log("Status scannes- IsShowing: " + data.showing);
+                console.log("Status scanner- IsShowing: " + data.showing);
             },err => {
-                console.log("Status scannes- IsShowing: " + err);
+                console.log("Status scanner- IsShowing: " + err);
 
             });
 

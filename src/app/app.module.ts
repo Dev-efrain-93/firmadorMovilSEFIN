@@ -8,7 +8,8 @@ import { CadenasSelladasPage } from '../pages/cadenas-selladas/cadenas-selladas'
 import { DetallesCadenasSelladasPage } from '../pages/detalles-cadenas-selladas/detalles-cadenas-selladas';
 import { ConfigurarLlavePage } from '../pages/configurar-llave/configurar-llave';
 import { PopoverConfigurarLlavePage } from '../pages/popovers/popover-configurar-llave';
-import {ScannerPage} from '../pages/scanner/scanner';
+import { ScannerPage } from '../pages/scanner/scanner';
+import { FirmaPage } from '../pages/firma/firma';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +23,8 @@ import { QRScanner } from '@ionic-native/qr-scanner';
     DetallesCadenasSelladasPage, 
     ConfigurarLlavePage,
     PopoverConfigurarLlavePage,
-    ScannerPage
+    ScannerPage,
+    FirmaPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { QRScanner } from '@ionic-native/qr-scanner';
     DetallesCadenasSelladasPage,
     ConfigurarLlavePage,
     PopoverConfigurarLlavePage,
-    ScannerPage
+    ScannerPage,
+    FirmaPage
   ],
   providers: [
     StatusBar,
