@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="primary">    
+    <ion-title>Detalles</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>     
+  <h5 text-center *ngIf="selectedItem" class="title-detail-page">
+    {{selectedItem.title}}   
+    <!--<button ion-button icon-only clear full color="light">
+      <ion-icon [name]="selectedItem.icon" [color]="selectedItem.color"></ion-icon>
+    </button>       -->
+  </h5>
+  <div text-center>
+    <ion-note *ngIf="selectedItem.state == true">(Firmado correctamente)</ion-note>
+    <ion-note *ngIf="selectedItem.state == false">(No firmado correctamente)</ion-note>
+  </div>  
+  <div padding>
+    <p text-justify *ngIf="selectedItem">
+      {{selectedItem.note}}
+    </p>
+  </div>
+</ion-content>

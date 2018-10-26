@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="primary" justify-content-end>   
+    <ion-grid>
+      <ion-row justify-content-end> 
+        <img class="icon-home" src="../../assets/icon/icon.png" />
+        <ion-title center>Firmador SEFIN</ion-title>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding class="home-page">  
+  <ion-slides>
+    <ion-slide>
+      <ion-toolbar>        
+      </ion-toolbar>
+      <img src="../../assets/imgs/firmadorSEFIN.png" class="slide-image"/>
+      <!--<h2 class="slide-title">Bienvenido!</h2>-->
+      <button ion-button icon-end color="primary">
+        Iniciar escaneo
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="light">
+    <ion-buttons>
+        <button ion-button icon-start small (click)="btnListarCadenasSelladas($event)">
+          <ion-icon name="bookmarks"></ion-icon>  
+          Cadenas        
+        </button>
+    </ion-buttons>
+    <ion-buttons end>
+        <button ion-button icon-start large (click)="btnConfigurarLlave($event)">
+          <ion-icon name="key"></ion-icon>
+          Llaves         
+        </button>
+    </ion-buttons>
+  </ion-toolbar>  
+</ion-footer>
