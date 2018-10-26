@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { CadenasSelladasPage } from '../cadenas-selladas/cadenas-selladas';
 import { ConfigurarLlavePage } from '../configurar-llave/configurar-llave';
+import {ScannerPage} from '../scanner/scanner';
 
 @Component({
   selector: 'page-home',
@@ -16,5 +17,9 @@ export class HomePage {
 
   btnConfigurarLlave(event) {
     this.navCtrl.push(ConfigurarLlavePage);
+  }
+
+  btnScannear(event) {
+    this.navCtrl.push(ScannerPage);
   }
 }

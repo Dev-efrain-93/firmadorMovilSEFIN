@@ -1,0 +1,21 @@
+page-scanner{
+    width: 100%;
+}
+
+.scanner-content,body, .app-root, ion-app,.scroll-content,.fixed-content,page-app{
+    background-color: rgba($color: white, $alpha: 0.0) !important;
+}
+
+.scanner-description {
+    background-color: rgba(255,255,255, 0.1);
+    padding: 5px;
+}
+
+.scanner-slide {
+    max-height: 60%;
+    max-width: 100%;
+    margin: 5px 0;
+    background-color: rgba($color: white, $alpha: 0.0) !important;
+    border: solid 1px green;
+}
+

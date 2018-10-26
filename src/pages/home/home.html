@@ -1,8 +1,8 @@
 <ion-header>
-  <ion-toolbar color="primary" justify-content-end>   
+  <ion-toolbar color="primary" justify-content-end class="home-toolbar">   
     <ion-grid>
       <ion-row justify-content-end> 
-        <img class="icon-home" src="../../assets/icon/icon.png" />
+        <img class="icon-image" src="../../assets/icon/icon.png" />
         <ion-title center>Firmador SEFIN</ion-title>
       </ion-row>
     </ion-grid>
@@ -17,7 +17,7 @@
       </ion-toolbar>
       <img src="../../assets/imgs/firmadorSEFIN.png" class="slide-image"/>
       <!--<h2 class="slide-title">Bienvenido!</h2>-->
-      <button ion-button icon-end color="primary">
+      <button ion-button icon-end color="primary" (click)="btnScannear($event)">
         Iniciar escaneo
         <ion-icon name="arrow-forward"></ion-icon>
       </button>

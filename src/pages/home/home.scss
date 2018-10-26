@@ -1,5 +1,14 @@
 page-home{
-    
+    width: 100%;
+}
+
+.home-toolbar {
+  .icon-image {
+    max-width: 20%;
+    max-height: 50px;
+    margin: 3px 0;
+  }
+
 }
 .home-page {
 
@@ -20,7 +29,7 @@ page-home{
     max-height: 50%;
     max-width: 60%;
     margin: 18px 0;
-  }
+  }  
 
   b {
     font-weight: 500;
