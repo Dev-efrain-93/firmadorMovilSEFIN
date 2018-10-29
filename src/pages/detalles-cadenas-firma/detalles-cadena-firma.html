@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>Detalles</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div padding *ngIf="cadena">
+        <ion-label color="primary">APP que solicita: {{appSolicitante}}</ion-label>
+        <p>{{cadena.Descripcion}}</p>
+    </div>
+    <br>    
+    <div padding *ngIf="cadena">
+        <ion-label color="primary">Cadena Original</ion-label>
+        <p>{{cadena.CadenaOriginal}}</p>
+    </div> 
+</ion-content>
