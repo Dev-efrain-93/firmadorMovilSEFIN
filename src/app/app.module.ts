@@ -15,6 +15,7 @@ import { DetallesCadenaFirmaPage} from '../pages/detalles-cadenas-firma/detalles
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { QRScanner } from '@ionic-native/qr-scanner';
+import { AppVersion } from '@ionic-native/app-version';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { QRScanner } from '@ionic-native/qr-scanner';
     StatusBar,
     SplashScreen,
     QRScanner,
+    AppVersion,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
