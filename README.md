@@ -13,6 +13,6 @@ Manifest: https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/
 
 App URL: https://raw.githubusercontent.com/Dev-efrain-93/firmadorMovilSEFIN/master/app/apps/FirmadorMovilSEFIN.ipa
 
-Display Image URL: https://raw.githubusercontent.com/Dev-efrain-93/firmadorMovilSEFIN/master/app/icon57x57.png
+Display Image URL: https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/image57x57/icon57x57.png
 
-Full Size Image URL: https://raw.githubusercontent.com/Dev-efrain-93/firmadorMovilSEFIN/master/app/icon512x512.png
+Full Size Image URL: https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/image512x512/icon512x512.png
