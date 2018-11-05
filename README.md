@@ -2,13 +2,14 @@
 
 FrontEnd Ionic 3 Firma de instancias a travez de la lectura QR
 
-<a href="https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/manifest/manifest.plist" target="_blank">
+ 
+ <a href="itms-services://?action=download-manifest&url=https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/manifest/manifest.plist">
  Install iOS in-house App</a>
  
- <br>
+
  
 
-https://raw.githubusercontent.com/Dev-efrain-93/firmadorMovilSEFIN/master/app/manifest.plist
+Manifest: https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/manifest/manifest.plist
 
 App URL: https://raw.githubusercontent.com/Dev-efrain-93/firmadorMovilSEFIN/master/app/apps/FirmadorMovilSEFIN.ipa
 
