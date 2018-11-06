@@ -15,8 +15,8 @@ export class HomePage {
     this.appVersion.getVersionNumber().then((version)=>{
       this.appVersionNumber += version;
     }).catch((err)=>{
-      console.debug("Error: " + err);
-      this.appVersionNumber = "[Versión no disponible]";
+      console.log("Error: " + err);
+      this.appVersionNumber = "[Versión no disponible: " + err + "]";
     });
   }
 
