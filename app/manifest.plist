@@ -43,219 +43,18 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-5D796947-1CB0-4FAD-83B2-7960B2C19D61.ipa</string>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-B7B9CABC-8A48-489F-B6CC-19B8BE7E958E.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
 							<key>device</key>
-							<string>iPhone11,8</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-					</array>
-					<key>variantIds</key>
-					<array>
-						<string>iPhone11,8</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-0D721662-031A-494E-82BD-C5FA79751450.ipa</string>
-					<key>variantDescriptors</key>
-					<array/>
-					<key>variantIds</key>
-					<array>
-						<string>iPhone10,2</string>
-						<string>iPhone7,1</string>
-						<string>iPhone10,6</string>
-						<string>iPhone10,5</string>
-						<string>iPhone8,2</string>
-						<string>iPhone9,4</string>
-						<string>iPhone10,3</string>
-						<string>iPhone9,2</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-B763BC15-7930-4B49-B9AD-791B83F4CA20.ipa</string>
-					<key>variantDescriptors</key>
-					<array>
-						<dict>
-							<key>device</key>
-							<string>iPhone10,3</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone11,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone11,6</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone11,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone9,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone9,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone10,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone10,5</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone8,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone10,6</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-					</array>
-					<key>variantIds</key>
-					<array>
-						<string>iPhone11,6</string>
-						<string>iPhone11,2</string>
-						<string>iPhone11,4</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-DDF54F6F-92DE-4970-B2C1-B647B0979B05.ipa</string>
-					<key>variantDescriptors</key>
-					<array/>
-					<key>variantIds</key>
-					<array>
-						<string>iPad2,3</string>
-						<string>iPad2,2</string>
-						<string>iPad2,1</string>
-						<string>iPad2,7</string>
-						<string>iPad2,6</string>
-						<string>iPad2,5</string>
-						<string>iPad2,4</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-44EBC79F-0521-4C34-863D-858EFF86965A.ipa</string>
-					<key>variantDescriptors</key>
-					<array/>
-					<key>variantIds</key>
-					<array>
-						<string>iPhone5,2</string>
-						<string>iPod5,1</string>
-						<string>iPhone5,3</string>
-						<string>iPhone4,1</string>
-						<string>iPhone5,1</string>
-						<string>iPhone5,4</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-EBEE73A1-2BE2-41EA-8FC0-03E603B2B6FB.ipa</string>
-					<key>variantDescriptors</key>
-					<array/>
-					<key>variantIds</key>
-					<array>
-						<string>iPad3,6</string>
-						<string>iPad3,4</string>
-						<string>iPad3,2</string>
-						<string>iPad3,5</string>
-						<string>iPad3,3</string>
-						<string>iPad3,1</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-1BCA4C18-A247-4B0C-9CFF-ED7D2D856344.ipa</string>
-					<key>variantDescriptors</key>
-					<array>
-						<dict>
-							<key>device</key>
-							<string>iPhone6,1</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone6,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone8,1</string>
+							<string>iPhone9,3</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
 							<string>iPod7,1</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone9,1</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone10,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone8,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPhone9,3</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -271,6 +70,42 @@
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone6,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone8,4</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone10,4</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone6,2</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone9,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone8,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
 					</array>
 					<key>variantIds</key>
 					<array/>
@@ -279,28 +114,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-F7F20BFE-81EB-4F6C-ACAB-3FDC749A0B65.ipa</string>
-					<key>variantDescriptors</key>
-					<array/>
-					<key>variantIds</key>
-					<array>
-						<string>iPhone10,1</string>
-						<string>iPhone8,1</string>
-						<string>iPhone9,3</string>
-						<string>iPhone6,2</string>
-						<string>iPhone9,1</string>
-						<string>iPhone7,2</string>
-						<string>iPod7,1</string>
-						<string>iPhone10,4</string>
-						<string>iPhone8,4</string>
-						<string>iPhone6,1</string>
-					</array>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-25E104A1-697B-4BC1-A9C2-05E3D7D17D4D.ipa</string>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-3A3F3D5E-B42A-47FB-8E13-630D9B2E7973.ipa</string>
 					<key>variantDescriptors</key>
 					<array/>
 					<key>variantIds</key>
@@ -336,90 +150,180 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-FFB014F6-CF8D-462F-8F84-A9E628BF6ABA.ipa</string>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-B4FBB515-E254-4207-9FBF-1D23543BA02C.ipa</string>
+					<key>variantDescriptors</key>
+					<array/>
+					<key>variantIds</key>
+					<array>
+						<string>iPhone10,1</string>
+						<string>iPhone8,1</string>
+						<string>iPhone9,3</string>
+						<string>iPhone6,2</string>
+						<string>iPhone9,1</string>
+						<string>iPhone7,2</string>
+						<string>iPod7,1</string>
+						<string>iPhone10,4</string>
+						<string>iPhone8,4</string>
+						<string>iPhone6,1</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-C5F0CC9C-945C-4600-8BDD-4D6737B3665A.ipa</string>
 					<key>variantDescriptors</key>
 					<array>
 						<dict>
 							<key>device</key>
-							<string>iPad7,1</string>
+							<string>iPhone11,4</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad8,4</string>
+							<string>iPhone11,2</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,4</string>
+							<string>iPhone10,2</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad6,7</string>
+							<string>iPhone9,4</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad7,3</string>
+							<string>iPhone10,5</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,6</string>
+							<string>iPhone10,6</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,7</string>
+							<string>iPhone9,2</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad7,2</string>
+							<string>iPhone8,2</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad6,11</string>
+							<string>iPhone10,3</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPhone11,6</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+					</array>
+					<key>variantIds</key>
+					<array>
+						<string>iPhone11,6</string>
+						<string>iPhone11,2</string>
+						<string>iPhone11,4</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-DC9858FD-CE59-444B-9DFA-D2144AD1CFA4.ipa</string>
+					<key>variantDescriptors</key>
+					<array>
+						<dict>
+							<key>device</key>
+							<string>iPhone11,8</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+					</array>
+					<key>variantIds</key>
+					<array>
+						<string>iPhone11,8</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-3E2D0D96-B6C8-4BED-B808-8EDF4F2EC9EC.ipa</string>
+					<key>variantDescriptors</key>
+					<array/>
+					<key>variantIds</key>
+					<array>
+						<string>iPhone10,2</string>
+						<string>iPhone7,1</string>
+						<string>iPhone10,6</string>
+						<string>iPhone10,5</string>
+						<string>iPhone8,2</string>
+						<string>iPhone9,4</string>
+						<string>iPhone10,3</string>
+						<string>iPhone9,2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-7D9C4CDA-A933-4923-9ECB-72D1CDBDC1AB.ipa</string>
+					<key>variantDescriptors</key>
+					<array/>
+					<key>variantIds</key>
+					<array>
+						<string>iPad3,6</string>
+						<string>iPad3,4</string>
+						<string>iPad3,2</string>
+						<string>iPad3,5</string>
+						<string>iPad3,3</string>
+						<string>iPad3,1</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-C2838F96-5F13-4B9F-A27E-E4F3D3E80FB2.ipa</string>
+					<key>variantDescriptors</key>
+					<array/>
+					<key>variantIds</key>
+					<array>
+						<string>iPhone5,2</string>
+						<string>iPod5,1</string>
+						<string>iPhone5,3</string>
+						<string>iPhone4,1</string>
+						<string>iPhone5,1</string>
+						<string>iPhone5,4</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-77AC5315-C2A0-4D7F-884A-9175D3A518B2.ipa</string>
+					<key>variantDescriptors</key>
+					<array>
 						<dict>
 							<key>device</key>
 							<string>iPad5,3</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad7,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad8,6</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad6,4</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad8,8</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -431,19 +335,43 @@
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad7,6</string>
+							<string>iPad4,3</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,1</string>
+							<string>iPad8,8</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad8,5</string>
+							<string>iPad4,5</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad8,4</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad7,3</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad5,2</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad6,11</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -461,43 +389,7 @@
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad8,3</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad4,5</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad8,7</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad6,12</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
 							<string>iPad8,2</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad8,1</string>
-							<key>os-version</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>device</key>
-							<string>iPad6,8</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -509,13 +401,49 @@
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad5,2</string>
+							<string>iPad8,1</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,3</string>
+							<string>iPad4,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad6,4</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad6,7</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad8,7</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad8,6</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad7,4</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad4,4</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -527,13 +455,67 @@
 						</dict>
 						<dict>
 							<key>device</key>
-							<string>iPad4,2</string>
+							<string>iPad6,12</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad7,6</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad8,3</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
 						<dict>
 							<key>device</key>
 							<string>iPad5,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad4,7</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad8,5</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad7,1</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad6,8</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad4,2</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad7,2</string>
+							<key>os-version</key>
+							<string>12</string>
+						</dict>
+						<dict>
+							<key>device</key>
+							<string>iPad4,6</string>
 							<key>os-version</key>
 							<string>12</string>
 						</dict>
@@ -548,6 +530,24 @@
 						<string>iPad8,4</string>
 						<string>iPad8,3</string>
 						<string>iPad8,2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/apps/FirmadorMovilSEFIN-A3968CB1-F8C5-4871-B8DC-8324BEC9ECF8.ipa</string>
+					<key>variantDescriptors</key>
+					<array/>
+					<key>variantIds</key>
+					<array>
+						<string>iPad2,3</string>
+						<string>iPad2,2</string>
+						<string>iPad2,1</string>
+						<string>iPad2,7</string>
+						<string>iPad2,6</string>
+						<string>iPad2,5</string>
+						<string>iPad2,4</string>
 					</array>
 				</dict>
 			</array>
