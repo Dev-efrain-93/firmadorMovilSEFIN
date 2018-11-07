@@ -8,7 +8,7 @@ FrontEnd Ionic 3 Firma de instancias a travez de la lectura QR
  
 ## Enlaces 
 
-Sitio de Prueba: https://dev-efrain-93.github.io/firmadorMovilSEFIN/
+GitHub Page: https://dev-efrain-93.github.io/firmadorMovilSEFIN/
 
 Manifest: https://github.com/Dev-efrain-93/firmadorMovilSEFIN/releases/download/manifest/manifest.plist
 
