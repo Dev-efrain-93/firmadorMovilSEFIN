@@ -15,14 +15,17 @@
     <ion-slide>
       <ion-toolbar>        
       </ion-toolbar>
-      <img src="../../assets/imgs/firmadorSEFIN.png" class="slide-image"/>
-      <!--<h2 class="slide-title">Bienvenido!</h2>-->
+      <img src="../../assets/imgs/firmadorSEFIN.png" class="slide-image" (click)="btnScannear($event)"/>
+      <br>
+      <h2 class="slide-title">Bienvenido!</h2>
+      <br>
       <button ion-button icon-end color="primary" (click)="btnScannear($event)">
         Iniciar escaneo
         <ion-icon name="arrow-forward"></ion-icon>
       </button>
       <br>
-      <small>{{appVersionNumber}}</small>
+      <!--<small>{{appVersionNumber}}</small>-->
+      <small>v1.0.0</small>
     </ion-slide>
   </ion-slides>
 </ion-content>
