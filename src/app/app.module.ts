@@ -16,6 +16,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { QRScanner } from '@ionic-native/qr-scanner';
 import { AppVersion } from '@ionic-native/app-version';
+import { HTTP } from '@ionic-native/http';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { AppVersion } from '@ionic-native/app-version';
     SplashScreen,
     QRScanner,
     AppVersion,
+    HTTP,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
