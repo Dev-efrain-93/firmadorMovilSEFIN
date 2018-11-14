@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Platform } from 'ionic-angular';
 import { CadenasSelladasPage } from '../cadenas-selladas/cadenas-selladas';
 import { ConfigurarLlavePage } from '../configurar-llave/configurar-llave';
-import {ScannerPage} from '../scanner/scanner';
+import { ScannerPage } from '../scanner/scanner';
 import { AppVersion } from '@ionic-native/app-version';
 
 @Component({
@@ -11,12 +11,14 @@ import { AppVersion } from '@ionic-native/app-version';
 })
 export class HomePage {
   appVersionNumber: string = 'v';
-  constructor(public navCtrl: NavController, private appVersion: AppVersion) { 
-    this.appVersion.getVersionNumber().then((version)=>{
-      this.appVersionNumber += version;
-    }).catch((err)=>{
-      console.log("Error: " + err);
-      this.appVersionNumber = "[Versión no disponible: " + err + "]";
+  constructor(public navCtrl: NavController, public platform: Platform, private appVersion: AppVersion) { 
+    this.platform.ready().then((readySource)=> {
+      this.appVersion.getVersionNumber().then((version)=> {
+        this.appVersionNumber += version;
+      }).catch((err)=>{
+        console.log("Error: " + err);
+        this.appVersionNumber = "[Versión no disponible: " + err + "]";
+      });
     });
   }
 
