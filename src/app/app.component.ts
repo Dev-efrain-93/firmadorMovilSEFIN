@@ -45,9 +45,6 @@ export class MyApp {
 
       if (this.platform.is('ios')) {
         this.iosUpdateCheck();
-        alert('Buscando actualizaciones..');
-      }else{
-        alert('Platform is not ios');
       }
       
     });
@@ -64,32 +61,32 @@ export class MyApp {
 
     this.http.get(this.iosEnterpriseEndpointLatest, {}, {})
     .then(data => {
-      let jsonObject = data.data;
+      let jsonObject = JSON.parse(data.data);
       alert('jsonObject.version:' + jsonObject.version);
       alert('appVersionNumber:' + this.appVersionNumber);
-      if (jsonObject.version !== this.appVersionNumber) {
-        this.alertCtrl.create({
+      if (jsonObject.version === this.appVersionNumber) {
+        let confirm = this.alertCtrl.create({
           title: 'Actualización Disponible',
           message: 'Una nueva actualización de Firmador Móvil SEFIN esta disponible. Por favor, le recomendamos actualizar para seguir disfrutando las últimas funcionalidades de la aplicación.',
           buttons: [
-            {
-              text: 'Actualizar',
-              handler: () => {
-                console.log('iosUpdateCheck: update clicked');
-                 window.window.open(`<a href="itms-services://?action=download-manifest&url=${this.iosEnterpriseEndpointPlist}" />`,'_system');
+              {
+                text: 'Actualizar',
+                handler: () => {
+                  try {
+                    console.log("Redirigiendo a itms-services://?action=download-manifest&url=" + this.iosEnterpriseEndpointPlist);
+                    window.location.href = "https://dev-efrain-93.github.io/firmadorMovilSEFIN/";
+                    /*window.open('https://dev-efrain-93.github.io/firmadorMovilSEFIN/', '_system');*/
+                    /*window.open(encodeURI("itms-services://?action=download-manifest&url=" + this.iosEnterpriseEndpointPlist),'_system', 'location=yes');*/
+                  } catch(err) {
+                    console.log(err);
+                  }
+                }
               }
-            },
-            {
-              text: 'Cancelar',
-              role: 'cancel',
-              handler: () => {
-                console.log('iosUpdateCheck: exit clicked');
-                this.platform.exitApp();
-              }
-            },
-          ]
-        }).present();
-      }else{
+            ]
+        });
+
+        confirm.present();
+      } else {
         alert('Su aplicación se encuentra actualizada');
       }
     })
