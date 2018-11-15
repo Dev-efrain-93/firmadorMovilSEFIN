@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, Platform } from 'ionic-angular';
+import { NavController, Platform, ModalController } from 'ionic-angular';
 import { CadenasSelladasPage } from '../cadenas-selladas/cadenas-selladas';
 import { ConfigurarLlavePage } from '../configurar-llave/configurar-llave';
 import { ScannerPage } from '../scanner/scanner';
@@ -11,7 +11,7 @@ import { AppVersion } from '@ionic-native/app-version';
 })
 export class HomePage {
   appVersionNumber: string = 'v0.0.0';
-  constructor(public navCtrl: NavController, public platform: Platform, private appVersion: AppVersion) { 
+  constructor(public navCtrl: NavController, public platform: Platform, private appVersion: AppVersion, public modalCtrl: ModalController) { 
     this.platform.ready().then((readySource)=> {
       this.appVersion.getVersionNumber().then((version)=> {
         this.appVersionNumber = 'v' + version;
@@ -33,4 +33,5 @@ export class HomePage {
   btnScannear(event) {
     this.navCtrl.push(ScannerPage);
   }
+
 }

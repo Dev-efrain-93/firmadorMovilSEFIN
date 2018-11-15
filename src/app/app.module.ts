@@ -11,6 +11,7 @@ import { PopoverConfigurarLlavePage } from '../pages/popovers/popover-configurar
 import { ScannerPage } from '../pages/scanner/scanner';
 import { FirmaPage } from '../pages/firma/firma';
 import { DetallesCadenaFirmaPage} from '../pages/detalles-cadenas-firma/detalles-cadena-firma';
+import { UpdatePage } from '../pages/update/update';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -28,7 +29,8 @@ import { HTTP } from '@ionic-native/http';
     PopoverConfigurarLlavePage,
     ScannerPage,
     FirmaPage,
-    DetallesCadenaFirmaPage
+    DetallesCadenaFirmaPage,
+    UpdatePage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import { HTTP } from '@ionic-native/http';
     PopoverConfigurarLlavePage,
     ScannerPage,
     FirmaPage,
-    DetallesCadenaFirmaPage
+    DetallesCadenaFirmaPage,
+    UpdatePage
   ],
   providers: [
     StatusBar,
