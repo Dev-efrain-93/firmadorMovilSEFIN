@@ -61,7 +61,7 @@ export class MyApp {
     this.http.get(this.iosEnterpriseEndpointLatest, {}, {})
     .then(data => {
       let jsonObject = JSON.parse(data.data);
-      if (jsonObject.version === this.appVersionNumber) {
+      if (jsonObject.version !== this.appVersionNumber) {
 
         let updatePageModal = this.modalCtrl.create(this.updatePage, { newAppVersionNumber: jsonObject.version }, { showBackdrop: false, enableBackdropDismiss: false });
         updatePageModal.present();
